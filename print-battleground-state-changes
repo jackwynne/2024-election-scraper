@@ -22,7 +22,7 @@ NC_INDEX = 27
 NV_INDEX = 33
 PA_INDEX = 38
 
-BATTLEGROUND_STATES = ["Alaska", "Arizona", "Georgia", "Iowa", 'Florida", "Michigan", "North Carolina", "Nevada", "Pennsylvania", "Texas",  "Wisconsin"]
+BATTLEGROUND_STATES = ["Alaska", "Arizona", "Georgia", "Iowa", "Florida", "Michigan", "North Carolina", "Nevada", "Pennsylvania", "Texas",  "Wisconsin"]
 STATE_INDEXES = range(51) # 50 States + DC
 
 CACHE_DIR = '_cache'
