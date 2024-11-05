@@ -19141,6 +19141,12 @@
               }
             },
             {
+              "paragraph": "County view shows margin of the leading candidate in the votes counted so far.",
+              "placement": {
+                "id": "county-view-note"
+              }
+            },
+            {
               "paragraph": "Source: The Associated Press",
               "placement": {
                 "id": "source-note-mobile"
@@ -19191,7 +19197,7 @@
             }
           ]
         },
-        "updated_at": "2024-11-05T14:11:22.338815+00:00"
+        "updated_at": "2024-11-05T21:42:26.560069+00:00"
       },
       {
         "name": "2024-11-05 Model Related",
@@ -20820,6 +20826,6 @@
   "partyControlTimeseriesData": {
     "results": [],
     "updated_at": null,
-    "returned_at": "2024-11-05T21:41:16.668Z"
+    "returned_at": "2024-11-05T21:48:23.543Z"
   }
 }
