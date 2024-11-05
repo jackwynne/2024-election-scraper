@@ -38,7 +38,7 @@ def git_show(ref, name, repo_client):
     return commit_tree[name].data_stream.read()
 
 def fetch_all_records():
-    commits = git_commits_for("results.json")
+    commits = git_commits_for("results24.json")
 
     repo = git.Repo('.', odbt=git.db.GitCmdObjectDB)
 
@@ -463,7 +463,7 @@ battleground_states_updated = [
 
 # print the summaries
 batch_time = max(itertools.chain.from_iterable(battlegrounds_summarized.values()), key=lambda s: s.timestamp).timestamp
-with open("results.json", "r", encoding='utf8') as f:
+with open("results24.json", "r", encoding='utf8') as f:
     RESULTS_HASH = hashlib.sha256(f.read().encode('utf8')).hexdigest()
 
 def txt_output(path, summarized, states_updated):
