@@ -16,7 +16,7 @@ jobs:
         fetch-depth: 0
     - name: Fetch latest data
       run: |-
-        curl "https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/votes-remaining-page/national/president.json" | jq . > results.json
+        curl "https://static01.nyt.com/elections-assets/pages/data/2024-11-05/results-president.json" | jq . > results24.json
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
