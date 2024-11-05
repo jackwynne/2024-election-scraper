@@ -22,7 +22,7 @@ NC_INDEX = 27
 NV_INDEX = 33
 PA_INDEX = 38
 
-BATTLEGROUND_STATES = ["Alaska", "Arizona", "Georgia", "North Carolina", "Nevada", "Pennsylvania"]
+BATTLEGROUND_STATES = ["Alaska", "Arizona", "Georgia", "Iowa", 'Florida" "Michigan", "North Carolina", "Nevada", "Pennsylvania", "Texas",  "Wisconsin"]
 STATE_INDEXES = range(51) # 50 States + DC
 
 CACHE_DIR = '_cache'
@@ -57,7 +57,7 @@ def fetch_all_records():
                     for row in record['rows']:
                         out.append(InputRecord(*row))
                     continue
-        blob = git_show(ref, 'results.json', repo)
+        blob = git_show(ref, 'results24.json', repo)
         json = parser.parse(blob)
         timestamp = json['meta']['timestamp']
         rows = []
