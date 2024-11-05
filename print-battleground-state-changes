@@ -59,10 +59,10 @@ def fetch_all_records():
                     continue
         blob = git_show(ref, 'results24.json', repo)
         json = parser.parse(blob)
-        timestamp = json['meta']['timestamp']
+        timestamp = json['partyControlTimeseriesData']['returned_at']
         rows = []
         for index in STATE_INDEXES:
-            race = json['data']['races'][index]
+            race = json['races'][index]
 
             county_tot_exp_vote = [county['tot_exp_vote'] for county in race['counties']]
             if all(county_tot_exp_vote):
