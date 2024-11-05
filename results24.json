@@ -18815,14 +18815,14 @@
           "text": [
             {
               "hed": "The Needle returns",
-              "paragraph": "Tonight, our live forecast will estimate the outcome of the presidential, Senate and House elections, based on pre-election data, the votes reported so far, and what we think remains.",
+              "paragraph": "Tonight, our live forecast will estimate the outcome of the presidential election, based on pre-election data, the votes reported so far, and the votes we think remain.",
               "placement": {
                 "id": "president-needle-annotation"
               }
             }
           ]
         },
-        "updated_at": "2024-11-05T14:11:17.213053+00:00"
+        "updated_at": "2024-11-05T22:23:18.167694+00:00"
       },
       {
         "name": "2024-11-05 National pages",
@@ -20119,6 +20119,13 @@
         "order": 3,
         "asset_id": 4678,
         "election_event": "2024-11-05"
+      },
+      {
+        "url": "https://www.nytimes.com/interactive/2024/us/elections/results-timing-presidential-race-calls.html",
+        "label": "Results Timing",
+        "order": 4,
+        "asset_id": null,
+        "election_event": "2024-11-05"
       }
     ],
     "race_types": [],
@@ -20826,6 +20833,6 @@
   "partyControlTimeseriesData": {
     "results": [],
     "updated_at": null,
-    "returned_at": "2024-11-05T21:58:31.588Z"
+    "returned_at": "2024-11-05T22:32:05.721Z"
   }
 }
